@@ -13,7 +13,7 @@ export default function Cena({nombre,color,precio,setTotal}) {
         <div className='rey' style={{backgroundColor:color }}>
             <h1>{nombre}</h1>
             <img src={img} />
-            {console.log(img)}
+          
             <div className='titulo'>Precio</div>
             <div className='precio'>${precio}</div>
             <div>              
