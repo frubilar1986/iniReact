@@ -1,16 +1,17 @@
 // import MiComponet from './MiComponent';
 import { useState } from "react";
 import "../node_modules/tailwindcss/tailwind.css";
-
+import Cena from "./components/Cena";
 
 import "./myCss.css";
 
 function App() {
   //crear useTate
-  
+  const [total, setTotal] = useState(0);
+
   // const
   const date = new Date();
-  const reye = [
+  const reyes = [
     {
       nombre: "Atanagildo",
       color: "darkolivegreen",
@@ -43,7 +44,7 @@ function App() {
     },
   ];
 
-  const reyes = [
+  const arr = [
     {
       nombre: "Atanagildo",
 
@@ -107,10 +108,39 @@ function App() {
           <h2 className="text-xl font-semibold mb-4 text-center ">
             Contenido Principal
           </h2>
-          
+          <h3>Total a pagar : $ {total}</h3>
           {/* Tu contenido aquí */}
           <div className="cajaCentral">
-            
+            <Cena
+              nombre={reyes[0].nombre}
+              color={reyes[0].color}
+              precio={reyes[0].precio}
+              setTotal={setTotal}
+            />
+            <Cena
+              nombre={reyes[1].nombre}
+              color={reyes[1].color}
+              precio={reyes[1].precio}
+              setTotal={setTotal}
+            />
+            <Cena
+              nombre={reyes[2].nombre}
+              color={reyes[2].color}
+              precio={reyes[2].precio}
+              setTotal={setTotal}
+            />
+            <Cena
+              nombre={reyes[3].nombre}
+              color={reyes[3].color}
+              precio={reyes[3].precio}
+              setTotal={setTotal}
+            />
+            <Cena
+              nombre={reyes[4].nombre}
+              color={reyes[4].color}
+              precio={reyes[4].precio}
+              setTotal={setTotal}
+            />
           </div>
         </main>
         <div className="container mx-auto p-4 flex flex-nowrap">
