@@ -7,7 +7,6 @@ import Home from "./Home";
 import Error404 from "./components/Error404";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Nosotros from "./components/Nosotros";
-import ReyModel from "./components/ReyModel";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/nosotros/:letra" element={<Nosotros />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/reyes/:rey" element={<ReyModel />} />
         <Route path="*" element={<Error404 />} />
         {/* <Route path="/*" element={<Error />}/> */}
       </Routes>
