@@ -1,0 +1,118 @@
+/* .contenedor {
+  background-color: rgb(242, 241, 237);
+  display: flex;
+  justify-content:space-evenly;
+} */
+.bg {
+  background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-abstracto-formas-negras_1017-31904.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.caja{
+  background-color: #e7b136ff;
+  font-size:2em ;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 10px; 
+  /* width: 30%;
+  margin-top: 20px;
+  border: 3px solid black;
+  text-align: center;*/
+}
+img{
+  width: 100%;
+}
+.rojo{
+  color: rgb(222, 8, 8);
+  font-size: 2em
+}
+.verde{
+  color: rgb(5, 235, 147);
+  font-size: 2em
+}
+input{
+  color: rgb(249, 247, 247);
+  width: 150px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px dotted rgb(147, 114, 114);
+  font-size: 17px;
+}
+
+
+.rey{
+  color: black;
+  padding: 2px 15px 20px;
+}
+.img{
+  width: 100%;
+}
+.cajaCentral{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.rey{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30%;
+}
+.root{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.numero{
+  user-select: none;
+  font-size: 30px;
+}
+.hey{
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2em;
+}
+.App{
+  display: flex;
+  height:calc( 100vh - 50px );
+
+}
+.hijo{
+  width: 33.3%;
+  border:1px solid gray;
+  text-align: center
+}
+.colores{
+  display: flex;
+}
+.color{
+  width: 22px;
+  height: 22px;
+  /* background-color: #e7b136ff; */
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.color:nth-child(1){
+  background-color: #3285f4;
+}
+.color:nth-child(2){
+  background-color: #c74f1c;
+}
+.color:nth-child(3){
+  background-color: #f43276;
+}
+.color:nth-child(4){
+  background-color: #6ede93;
+}
+
+.activado{
+  background-color: #c74f1c;
+}
+
+.reyes img{
+  width: 30%;
+  margin-bottom: 25px;
+  display: fl;
+}
